@@ -1,7 +1,12 @@
-rest_api_demo
-=============
+## Wikipedia documentation
 
-This repository contains boilerplate code for a RESTful API based on Flask and Flask-RESTPlus.
+#### How to run?
 
-The code of this demo app is described in an article on my blog:
-http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
+pip install -r requirements.txt
+python setup.py develop
+python passfort_demo/app.py
+
+#### How to use?
+Go to http://localhost:8888/api/
+
+Follow documentation on the beautiful SwaggerUI
